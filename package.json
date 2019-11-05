@@ -28,7 +28,7 @@
   "homepage": "https://github.com/ktquez/vuepress-theme-ktquez#readme",
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.5.1",
-    "vuepress": "^0.14.2"
+    "vuepress": "^1.2.0"
   },
   "dependencies": {
     "vuepress-theme-ktquez": "^0.2.18"
