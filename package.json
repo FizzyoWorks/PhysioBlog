@@ -6,31 +6,25 @@
     "dev": "node_modules/.bin/vuepress dev src",
     "build": "node_modules/.bin/vuepress build src"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ktquez/vuepress-theme-ktquez-starter"
-  },
   "keywords": [
     "vuepress",
     "vuepress-theme",
     "site",
     "blog",
-    "theme-ktquez",
     "markdown",
     "static",
     "vuejs"
   ],
-  "author": "Alan Ktquez <ktquez@gmail.com> (https://ktquez.com/)",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ktquez/vuepress-theme-ktquez-starter/issues"
+    "url": ""
   },
   "homepage": "https://github.com/ktquez/vuepress-theme-ktquez#readme",
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.5.1",
+    "@vuepress/theme-blog": "^1.3.2",
     "vuepress": "^1.2.0"
   },
-  "dependencies": {
-    "vuepress-theme-ktquez": "^0.2.18"
-  }
+  "dependencies": {}
 }
