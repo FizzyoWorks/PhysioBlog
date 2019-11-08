@@ -1,14 +1,16 @@
 ---
-date: 2019-5-6
+date: 2019-11-7
 tag:
  - blog
-author: mgs
+author: Hilary Wilson
 ---
 
 # Copenhagen protocol
 
-Soccer team
+![Copenhagen Adduction Exercise](https://simplifaster.com/wp-content/uploads/2018/04/Copenhagen-Adduction-Exercise.jpg)
 
+### Links
+[RandomAhttps://simplifaster.com/articles/copenhagen-adduction-exercise-groin-injuries/](https://simplifaster.com/articles/copenhagen-adduction-exercise-groin-injuries/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjA4NDk2Nl19
+eyJoaXN0b3J5IjpbLTExOTQ0NDEwNjcsLTI2NjA4NDk2Nl19
 -->
