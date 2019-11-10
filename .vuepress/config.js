@@ -1,7 +1,24 @@
 module.exports = {
     theme: '@vuepress/blog',
     themeConfig: {
-        // Please keep looking down to see the available options
+        nav: [
+            {
+              text: 'Home',
+              link: '/',
+            },
+            {
+              text: 'Tags',
+              link: '/tag/',
+            }
+          ],
+        footer: {
+            contact: [
+                {
+                type: 'github',
+                link: 'https://github.com/markgstacey',
+                },
+            ],
+        },
     },
     plugins: [
         [
@@ -14,9 +31,27 @@ module.exports = {
                         // Target directory
                         dirname: '_posts',
                         // Path of the 'entry page' (or 'list page')
-                        path: '/'
+                        path: '/',
+                        itemLayout: 'Post',
+                        itemPermalink: '/:year/:month/:day/:slug',
+                        pagination: {
+                            lengthPerPage: 20,
+                        },
                     }
-                ]
+                ],
+                frontmatters: [
+                    {
+                      // Unique ID of current classification
+                      id: 'tag',
+                      // Decide that the frontmatter keys will be grouped under this classification
+                      keys: ['tag'],
+                      // Path of the `entry page` (or `list page`)
+                      path: '/tag/',
+                      // Layout of the `entry page`
+                      layout: 'Tag',
+                    },
+                  ],
+          
             }
         ]
     ]

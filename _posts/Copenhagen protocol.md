@@ -3,6 +3,7 @@ date: 2019-11-7
 tag:
  - blog
 author: Hilary Wilson
+summary: This is the copenhagen protocol
 ---
 
 # Copenhagen protocol
